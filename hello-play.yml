@@ -1,7 +1,6 @@
 - hosts: localhost
   tasks:
   - name: Copy a file to path /tmp
-    file:
+    copy:
       src: file.txt
       dest: /tmp/file.txt
-
