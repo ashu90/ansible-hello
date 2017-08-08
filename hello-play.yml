@@ -3,5 +3,5 @@
   - name: Copy a file to path /tmp
     file:
       src: file.txt
-      dest: /tmp
+      dest: /tmp/file.txt
 
